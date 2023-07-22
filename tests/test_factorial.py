@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from .context import mathsup
+# from .context import mathsup
+import mathsup
 
 import unittest
 
