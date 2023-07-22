@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
+import mathsup
 
 import unittest
 
