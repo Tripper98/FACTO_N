@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import mathsup
-
 import unittest
+
+import mathsup
 
 
 class BasicTestSuite(unittest.TestCase):

@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 100
+ignore = E501, E371, W503, E241, E203
+show-source = True
+statistics = True
+count = True

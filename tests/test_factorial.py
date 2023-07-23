@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 # from .context import mathsup
-import mathsup
-
 import unittest
+
+import mathsup
 
 
 class BasicTestSuite(unittest.TestCase):
