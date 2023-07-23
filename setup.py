@@ -15,6 +15,9 @@ setup(
     name='mathsup',
     version='0.1.0',
     description='Sample package for mathsup',
+    entry_points = {
+    'console_scripts': ['mybinary=mathsup.cli:main'],
+    },
     long_description=readme,
     author='DRIOUCHE Adnane',
     url='https://github.com/Tripper98/FACTO_N.git',
