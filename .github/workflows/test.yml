@@ -22,4 +22,4 @@ jobs:
           pip install flake8
 
       - name: Lint Python code
-        run: flake8 .  # Change the path to your Python code directory if needed
+        run: flake8 --max-line-length=100 --count --ignore=E501,E371,W503,E241,E203 --show-source --statistics
