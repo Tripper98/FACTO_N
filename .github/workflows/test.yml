@@ -23,3 +23,7 @@ jobs:
 
       - name: Lint Python code
         run: flake8 --max-line-length=100 --count --ignore=E501,E371,W503,E241,E203,F401,F403 --show-source --statistics
+      
+      - name: Run Tests
+        run: python -m pytest
+
