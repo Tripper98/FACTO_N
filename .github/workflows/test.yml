@@ -2,8 +2,6 @@ name: Linting (Push)
 
 on:
   push:
-    branches-ignore:
-      - main  # Exclude the main branch to avoid duplication with the pull request workflow
 
 jobs:
   lint_push:
